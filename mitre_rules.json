@@ -1,0 +1,34 @@
+{
+  "Credential Access": [
+    {
+      "technique": "Remote Services",
+      "tactic": "Lateral Movement",
+      "impact": 8,
+      "likelihood": 6
+    }
+  ],
+  "Execution": [
+  {
+    "technique": "PowerShell",
+    "tactic": "Credential Access",
+    "impact": 7,
+    "likelihood": 6
+    }
+  ],
+  "Lateral Movement": [
+    {
+      "technique": "Remote Service Session Hijacking",
+      "tactic": "Command and Control",
+      "impact": 7,
+      "likelihood": 5
+    }
+  ],
+  "Command and Control": [
+    {
+      "technique": "Application Layer Protocol",
+      "tactic": "Exfiltration",
+      "impact": 9,
+      "likelihood": 4
+    }
+  ]
+}
